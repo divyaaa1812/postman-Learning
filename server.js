@@ -62,7 +62,7 @@ app.put("/api/updateUser", (request, response) => {
 });
 
 // Delete
-app.delete("/api/trashUser", (request, response) => {
+app.delete("/api/deleteUser", (request, response) => {
     const { body = {} } = request;
     const { id = "" } = body;
     const newUsers = [];
