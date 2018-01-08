@@ -1,5 +1,5 @@
 # mock-crud-service
-A simple express server with basic crud endpoints
+A simple express server with basic CRUD endpoints
 
 
 ### Starting the server
@@ -11,6 +11,7 @@ A simple express server with basic crud endpoints
 
 ### Endpoints
 
+This service can be used as a sample server with basic CRUD operations. Using a tool like [Postman](https://www.getpostman.com/) make a request to following endpoints. 
 #### GET 
 - `http://localhost:3000/api/getUsers` : Returns all users
 - `http://localhost:3000/api/getUserById/:id`: Returns users with a specified Id
